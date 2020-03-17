@@ -73,7 +73,7 @@ const NavBar = ({ t }) => {
   useEffectOnce(() => {
     $nav = $('header');
     $main = $('main');
-    $mainBottom = ($main.position().top + $main.outerHeight(true)) || 400;
+    $mainBottom = $main.length? $main.position().top + $main.outerHeight(true) : 400;
     $navBottom = $nav.position().top + $nav.outerHeight(true);
   });
 

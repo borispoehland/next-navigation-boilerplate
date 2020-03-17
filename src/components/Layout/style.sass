@@ -1,0 +1,45 @@
+@import 'src/common/style/themes'
+@import 'src/common/style/vars'
+
+body
+  font-size: 16px
+
+#__next
+  text-align: center
+  +themify($themes)
+    background: themed('backgroundColor')
+
+#page
+  max-width: $max-page-width
+  margin: 0 auto
+
+#page-without-footer
+  min-height: 100vh
+  position: relative
+
+main
+  padding-top: $nav-height
+  padding-bottom: $nav-height
+  height: 100vh
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+
+  border-bottom: 2px solid red // remove
+
+#no-main
+  height: 100vh
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+
+  border-bottom: 2px solid red // remove
+
+#error
+  +themify($themes)
+    background: themed('backgroundColor')
+
+
+

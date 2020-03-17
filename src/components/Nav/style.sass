@@ -1,0 +1,77 @@
+@import 'src/common/style/themes'
+@import 'src/common/style/vars'
+
+header
+  position: absolute
+  left: 50%
+  transform: translate(-50%, 0)
+  width: 100%
+  max-width: $max-page-width
+  margin-top: $nav-top-offset
+  font-size: 1.3rem
+  z-index: 1
+
+  &.fixed
+    position: fixed
+    left: 50%
+    transform: translate(-50%, calc(-100% - #{$nav-top-offset}))
+
+  &.fixed-show
+    left: 50%
+    transform: translate(-50%, 0)
+
+  &.transition
+    transition: transform 600ms ease-out
+
+.navbar-brand
+  font-size: 1.3rem
+
+.navbar-nav
+  .dropdown-menu
+    position: absolute
+    min-width: 0
+    width: 100%
+  .dropdown-toggle
+    padding-right: .5rem
+    padding-left: .5rem
+  .dropdown-item
+    text-align: center
+
+.nav-item
+  padding: 0 .5rem
+  .nav-link
+    +themify($themes)
+      color: themed('navLinkColor')
+    &:hover
+      +themify($themes)
+        color: themed('navLinkHoverColor')
+    &:focus
+      +themify($themes)
+        color: themed('navLinkActiveColor')
+  .nav-link-active
+    +themify($themes)
+      color: themed('navLinkActiveColor')
+
+.navbar-toggler
+  margin-left: 0.5rem
+
+.navbar
+  position: relative
+  +themify($themes)
+    background-color: themed('navBarColor')
+
+#github-link
+  position: absolute
+  color: black
+  right: 20px
+  top: 70px
+  background: white
+  padding: 10px
+  +themify($themes)
+    border: 1px solid themed('navLinkColor')
+
+@media (max-width: 768px)
+  .nav-item
+    padding: 0 .1rem
+
+

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import {
   Collapse,
@@ -70,9 +70,10 @@ const NavBar = ({ t }) => {
     return undefined;
   };
 
-  useEffectOnce(() => {
+  useEffect(() => {
     $nav = $('header');
     $main = $('main');
+    // eslint-disable-next-line max-len
     $mainBottom = $main.length ? $main.position().top + $main.outerHeight(true) : Number.MAX_SAFE_INTEGER;
     $navBottom = $nav.position().top + $nav.outerHeight(true);
   });

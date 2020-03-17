@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import {
   Collapse,
@@ -73,7 +73,7 @@ const NavBar = ({ t }) => {
   useEffectOnce(() => {
     $nav = $('header');
     $main = $('main');
-    $mainBottom = $main.position().top + $main.outerHeight(true);
+    $mainBottom = ($main.position().top + $main.outerHeight(true)) || 400;
     $navBottom = $nav.position().top + $nav.outerHeight(true);
   });
 

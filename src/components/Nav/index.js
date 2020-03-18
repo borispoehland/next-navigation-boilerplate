@@ -91,8 +91,8 @@ const NavBar = ({ t }) => {
         </BrandLink>
 
         <Nav className="flex-row order-2 order-md-3 align-items-center" navbar>
-          <ThemeDropdown ariaLabel={t('aria:chooseTheme')} />
-          <LanguageDropdown ariaLabel={t('aria:chooseLanguage')} />
+          <ThemeDropdown />
+          <LanguageDropdown />
           <NavbarToggler onClick={toggleMobileMenu} />
         </Nav>
 

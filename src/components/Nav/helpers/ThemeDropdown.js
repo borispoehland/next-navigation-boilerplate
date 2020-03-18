@@ -15,7 +15,7 @@ let body;
 let light;
 let dark;
 
-const ThemeDropdown = ({ t, ariaLabel }) => {
+const ThemeDropdown = ({ t }) => {
   const themeIcon = <FontAwesomeIcon icon="tint" />;
 
   useEffect(() => {
@@ -31,7 +31,7 @@ const ThemeDropdown = ({ t, ariaLabel }) => {
   };
 
   return (
-    <UncontrolledDropdown aria-label={ariaLabel} nav inNavbar>
+    <UncontrolledDropdown aria-label={t('aria:chooseTheme')} nav inNavbar>
       <DropdownToggle nav caret>
         <IconWithText label={t('themeLabel')} icon={themeIcon} />
       </DropdownToggle>
@@ -49,7 +49,6 @@ const ThemeDropdown = ({ t, ariaLabel }) => {
 
 ThemeDropdown.propTypes = {
   t: PropTypes.func.isRequired,
-  ariaLabel: PropTypes.string.isRequired,
 };
 
-export default withTranslation('nav')(ThemeDropdown);
+export default withTranslation(['nav', 'aria'])(ThemeDropdown);

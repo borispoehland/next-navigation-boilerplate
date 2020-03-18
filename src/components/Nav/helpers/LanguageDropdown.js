@@ -10,12 +10,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import IconWithText from '../../../common/components/IconWithText';
 import { withTranslation } from '../../../../i18n';
 
-const LanguageDropdown = ({ i18n, ariaLabel }) => {
+const LanguageDropdown = ({ i18n, t }) => {
   const languageIcon = <FontAwesomeIcon icon="globe" />;
   const currentLang = i18n.language.toUpperCase();
 
   return (
-    <UncontrolledDropdown aria-label={ariaLabel} nav inNavbar>
+    <UncontrolledDropdown aria-label={t('aria:chooseLanguage')} nav inNavbar>
       <DropdownToggle nav caret>
         <IconWithText label={currentLang} icon={languageIcon} />
       </DropdownToggle>
@@ -35,7 +35,7 @@ LanguageDropdown.propTypes = {
   i18n: PropTypes.oneOfType([
     PropTypes.object,
   ]).isRequired,
-  ariaLabel: PropTypes.string.isRequired,
+  t: PropTypes.func.isRequired,
 };
 
-export default withTranslation()(LanguageDropdown);
+export default withTranslation('aria')(LanguageDropdown);

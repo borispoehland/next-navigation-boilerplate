@@ -10,7 +10,7 @@ const InfoIconWithTooltip = ({ tooltip }) => (
     <div className="pulse">
       <FontAwesomeIcon icon="info-circle" size="lg" data-tip={tooltip} />
     </div>
-    <ReactTooltip type="info" effect="solid" place="bottom" clickable />
+    <ReactTooltip type="info" effect="float" place="bottom" clickable multiline />
   </>
 );
 

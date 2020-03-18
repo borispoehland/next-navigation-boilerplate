@@ -15,7 +15,7 @@ import LanguageDropdown from './helpers/LanguageDropdown';
 import ThemeDropdown from './helpers/ThemeDropdown';
 import ActiveLink from './helpers/ActiveLink';
 import BrandLink from './helpers/BrandLink';
-import GithubLink from './helpers/GithubLink';
+import GitHubLink from './helpers/GitHubLink';
 import links from './links';
 import { withTranslation } from '../../../i18n';
 
@@ -102,7 +102,7 @@ const NavBar = ({ t }) => {
           </Nav>
         </Collapse>
 
-        <GithubLink />
+        <GitHubLink />
       </Navbar>
     </header>
   );

@@ -2,7 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import IconWithText from '../../../common/components/IconWithText';
 
-const GithubLink = () => {
+const GitHubLink = () => {
   const githubIcon = <FontAwesomeIcon icon={['fab', 'github']} />;
 
   return (
@@ -12,4 +12,4 @@ const GithubLink = () => {
   );
 };
 
-export default GithubLink;
+export default GitHubLink;

@@ -13,7 +13,7 @@ This app is running on a free dynos of heroku. Thus, it can take some time on th
 - Multi-language with [next-i18next](https://github.com/isaachinman/next-i18next)
 - Multilingual aria-labels, see [here](https://github.com/borispoehland/next-navigation-boilerplate/blob/7aeaa846f0ba2c9704e4c937c91e3dd70ce64d89/src/components/Nav/index.js#L85)
 - Code inspection with [ESLint](https://eslint.org/)
-- a navigation that scrolls down when the <main>-container is surpassed (you can use another container or fixed number, just change [this line](https://github.com/borispoehland/next-navigation-boilerplate/blob/7aeaa846f0ba2c9704e4c937c91e3dd70ce64d89/src/components/Nav/index.js#L52))
+- a navigation that scrolls down when the <code>&lt;main&gt;</code>-container is surpassed (you can use another container or fixed number, just change [this line](https://github.com/borispoehland/next-navigation-boilerplate/blob/7aeaa846f0ba2c9704e4c937c91e3dd70ce64d89/src/components/Nav/index.js#L52))
 
 ## Get started
 - Clone the project, enter the root directory and run <code>npm install</code>

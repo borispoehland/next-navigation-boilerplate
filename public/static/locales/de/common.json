@@ -2,6 +2,6 @@
   "helloHome": "Hallo von der Startseite",
   "helloPage2": "Hallo von Seite 2",
   "helloPage3": "Hallo von Seite 3",
-  "mainExplanation": "Diese Box muss ein <main> Element sein. Scrolle an diesem Element (der roten Linie) vorbei, um die Navigation einzublenden!",
-  "belowMainExplanation": "Diese Information ist außerhalb der <main> Box. Hier beginnt der eigentliche Inhalt der Seite."
+  "mainExplanation": "Diese Box soll ein <main>-Element sein. Scrolle an ihm vorbei (rote Linie), um die Navigation einzublenden.",
+  "belowMainExplanation": "Diese Information ist außerhalb des <main>-Elements. Zweitrangige Infos können hier stehen."
 }

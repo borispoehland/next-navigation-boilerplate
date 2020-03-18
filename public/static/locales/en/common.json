@@ -2,6 +2,6 @@
   "helloHome": "Hello from home page",
   "helloPage2": "Hello from second page",
   "helloPage3": "Hello from third page",
-  "mainExplanation": "This box must be a <main> element. Overscroll this element (the red line below) to scroll down the nav!",
-  "belowMainExplanation": "This information is outside of the <main> box. Put secondary information here."
+  "mainExplanation": "This box should be a <main> element. Overscroll it (the red line below) to scroll down the nav!",
+  "belowMainExplanation": "This information is outside of the <main>-element. Put secondary information here."
 }

@@ -1,3 +1,13 @@
+@import 'src/common/style/themes'
+
 footer
-  h1
+  padding-bottom: .5rem
+  padding-top: .5rem
+  *
     margin-bottom: 0
+  a
+    +themify($themes)
+      color: themed('navLinkColor')
+    &:hover
+      +themify($themes)
+        color: themed('navLinkHoverColor')

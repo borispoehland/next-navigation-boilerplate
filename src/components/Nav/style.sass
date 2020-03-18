@@ -54,6 +54,11 @@ header
 
 .navbar-toggler
   margin-left: 0.5rem
+  +themify($themes)
+    border-color: themed('navLinkColor')
+  &:focus
+    +themify($themes)
+      border-color: themed('navLinkColor')
 
 .navbar
   position: relative
@@ -64,7 +69,7 @@ header
   position: absolute
   color: black
   right: 20px
-  top: 70px
+  bottom: -60px
   background: white
   padding: 10px
   +themify($themes)

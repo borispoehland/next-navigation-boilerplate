@@ -7,6 +7,11 @@ import './style.sass';
 const Footer = ({ t }) => (
   <footer aria-label={t('aria:footer')}>
     <h1>{t('footer')}</h1>
+    <p>
+      {t('info')}
+      {' '}
+      <a href="https://github.com/borispoehland" target="__blank">Boris Pöhland</a>
+    </p>
   </footer>
 );
 

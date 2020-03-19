@@ -11,7 +11,11 @@
   position: absolute
   left: 50%
   transform: translateX(-50%)
-  bottom: 5vh
+  bottom: 10px
   span
     +themify($themes)
       color: themed('hintColor')
+
+@media (max-width: 767px)
+  #overscrollMe
+    bottom: 10vh

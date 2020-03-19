@@ -8,6 +8,10 @@
     "start": "cross-env NODE_ENV=production node index.js",
     "heroku-postbuild": "npm run build"
   },
+  "engines": {
+    "node": "12.14.x",
+    "npm": "6.14.x"
+  },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.27",
     "@fortawesome/free-brands-svg-icons": "^5.12.1",

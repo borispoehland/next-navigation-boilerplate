@@ -20,13 +20,15 @@ body
 main
   padding-top: $nav-height
   padding-bottom: $nav-height
-  height: 90vh //replace with 100vh if needed
+  height: calc(100vh - 3px) //replace with 100vh
   display: flex
   flex-direction: column
   justify-content: center
   align-items: center
+  position: relative
 
-  border-bottom: 3px solid red // remove
+  +themify($themes) // remove this
+    border-bottom: 3px solid themed('hintColor')
 
 #no-main
   height: 100vh
@@ -35,11 +37,8 @@ main
   justify-content: center
   align-items: center
 
-  border-bottom: 3px solid red // remove
-
-#error
-  +themify($themes)
-    background: themed('backgroundColor')
+  +themify($themes) // remove this
+    border-bottom: 3px solid themed('navLinkColor')
 
 
 

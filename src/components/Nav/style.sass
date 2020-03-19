@@ -56,9 +56,11 @@ header
   margin-left: 0.5rem
   +themify($themes)
     border-color: themed('navLinkColor')
-  &:focus
+    outline-color: themed('navLinkColor')
+  &:focus, &:active
     +themify($themes)
       border-color: themed('navLinkColor')
+      outline-color: themed('navLinkColor')
 
 .navbar
   position: relative

@@ -4,14 +4,16 @@ $themes: (
                 navBarColor: white,
                 navLinkColor: #408bbd,
                 navLinkHoverColor: #61b0e7,
-                navLinkActiveColor: red
+                navLinkActiveColor: red,
+                hintColor: red
         ),
         dark: (
                 backgroundColor: #d9d9d9,
                 navBarColor: white,
                 navLinkColor: #6d6d6d,
                 navLinkHoverColor: #333333,
-                navLinkActiveColor: red
+                navLinkActiveColor: red,
+                hintColor: red
         ),
 );
 

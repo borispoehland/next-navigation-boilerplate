@@ -1,7 +1,17 @@
 @import 'src/common/style/animations'
+@import 'src/common/style/themes'
 
 .pulse
   animation: 2s ease-out 0s pulse infinite
 
 .max-width-70vh
   max-width: 70vw
+
+#overscrollMe
+  position: absolute
+  left: 50%
+  transform: translateX(-50%)
+  bottom: 0
+  span
+    +themify($themes)
+      color: themed('hintColor')

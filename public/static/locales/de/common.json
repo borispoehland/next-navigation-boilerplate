@@ -2,6 +2,7 @@
   "helloHome": "Hallo von der Startseite",
   "helloPage2": "Hallo von Seite 2",
   "helloPage3": "Hallo von Seite 3",
-  "mainExplanation": "Diese Schrift ist in einem <main>-Behälter.\n Scrolle am <main>-Behälter vorbei, um die Navigation einzublenden.",
-  "belowMainExplanation": "Diese Information ist außerhalb des <main>-Behälters.\nZweitrangige Infos können hier stehen."
+  "mainExplanation": "Dies ist ein <main>-Behälter. <br/> Scrolle am <main>-Behälter vorbei, um die Navigation einzublenden.",
+  "belowMainExplanation": "Diese Information ist außerhalb des <main>-Behälters. <br/> Zweitrangige Infos können hier stehen.",
+  "overscrollMeExplanation": "Scrolle an dieser Linie vorbei!"
 }

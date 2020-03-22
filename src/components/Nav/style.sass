@@ -54,13 +54,13 @@ header
 
 .navbar-toggler
   margin-left: 0.5rem
+  outline: none
   +themify($themes)
     border-color: themed('navLinkColor')
-    outline-color: themed('navLinkColor')
   &:focus, &:active
+	outline: none
     +themify($themes)
       border-color: themed('navLinkColor')
-      outline-color: themed('navLinkColor')
 
 .navbar
   position: relative

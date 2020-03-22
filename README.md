@@ -1,5 +1,5 @@
 # next-navigation-boilerplate
-next.js navigation boilerplate that supports multi-languages (using [next-i18next](https://github.com/isaachinman/next-i18next)) and themes
+next.js navigation boilerplate that supports multiple languages (using [next-i18next](https://github.com/isaachinman/next-i18next)) and themes
 
 # Live Demo
 Visit [https://vast-harbor-93695.herokuapp.com](https://vast-harbor-93695.herokuapp.com)

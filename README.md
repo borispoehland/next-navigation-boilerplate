@@ -14,7 +14,7 @@ This app is running on a free dynos of heroku. Thus, it can take some time on th
 - Multilingual aria-labels, see [here](https://github.com/borispoehland/next-navigation-boilerplate/blob/7aeaa846f0ba2c9704e4c937c91e3dd70ce64d89/src/components/Nav/index.js#L85)
 - Code inspection with [ESLint](https://eslint.org/)
 - A navigation that scrolls down when the <code>&lt;main&gt;</code>-container is surpassed (you can use another container or fixed number, just change [this line](https://github.com/borispoehland/next-navigation-boilerplate/blob/7aeaa846f0ba2c9704e4c937c91e3dd70ce64d89/src/components/Nav/index.js#L52))
-- Active Links! The active link gets the class <code>nav-link-active</code>. See [here](https://github.com/borispoehland/next-navigation-boilerplate/blob/fc56c9b2e2c930a88c2009a96b5bba12cc9c72c5/src/components/Nav/helpers/ActiveLink.js#L13) (note: the brand-icon does not posess this class, because it's not wrapped in the <code>ActiveLink</code> component)
+- Active links! The active link gets the class <code>nav-link-active</code>. See [here](https://github.com/borispoehland/next-navigation-boilerplate/blob/fc56c9b2e2c930a88c2009a96b5bba12cc9c72c5/src/components/Nav/helpers/ActiveLink.js#L13) (note: the brand-icon does not posess this class, because it's not wrapped in the <code>ActiveLink</code> component)
 
 ## Get started
 - Clone the project, enter the root directory and run <code>npm install</code>

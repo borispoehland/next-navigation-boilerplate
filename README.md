@@ -2,7 +2,7 @@
 next.js navigation boilerplate that supports multiple languages (using [next-i18next](https://github.com/isaachinman/next-i18next)) and themes
 
 # Live Demo
-Visit [https://vast-harbor-93695.herokuapp.com](https://vast-harbor-93695.herokuapp.com)
+Visit [https://next-navigation-boilerplate.herokuapp.com/](https://next-navigation-boilerplate.herokuapp.com/)
 
 This app is running on a free dynos of heroku. Thus, it can take some time on the first load.
 

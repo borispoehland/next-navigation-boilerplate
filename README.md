@@ -2,9 +2,7 @@
 next.js navigation boilerplate that supports multiple languages (using [next-i18next](https://github.com/isaachinman/next-i18next)) and themes
 
 # Live Demo
-Visit [https://next-navigation-boilerplate.herokuapp.com/](https://next-navigation-boilerplate.herokuapp.com/)
-
-This app is running on a free dynos of heroku. Thus, it can take some time on the first load.
+Visit [https://next-navigation-boilerplate.vercel.app](https://next-navigation-boilerplate.vercel.app)
 
 # Features
 - Server side rendering with [next.js](https://nextjs.org/)
@@ -21,9 +19,5 @@ This app is running on a free dynos of heroku. Thus, it can take some time on th
 - Clone the project, enter the root directory and run <code>npm install</code>
 - For development mode, run <code>npm run dev</code>
 - For production mode, run <code>npm run build</code> and then <code>npm run start</code>
-
-## Troubleshooting
-- next-i18next does [not yet support the serverless mode](https://github.com/isaachinman/next-i18next/issues/274). Deploying the project to Zeit NOW is thus not possible. You can deploy on heroku as an alternative, or wait for serverless support.
-- Changing the language while being on the [_error.js page](https://github.com/borispoehland/next-navigation-boilerplate/blob/master/pages/_error.js) caused errors (the statusCode was overwritten with null, because getInitialProps was called twice). To fix, I only save the statusCode when it is not null. This works, but is no optimal solution. If you have any idea on how to make this better, please contact me!
 
 
